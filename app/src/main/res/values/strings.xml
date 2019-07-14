@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_profile">My Profile</string>
+    <string name="app_about"> About ALC</string>
+    <string name="app_alc"> Welcome To ALC</string>
+</resources>
