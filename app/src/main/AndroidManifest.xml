@@ -2,10 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.alc4phase1">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:networkSecurityConfig="@xml/networksecurityconfig"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_profile"
@@ -14,24 +14,19 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:label="@string/app_profile"
+            android:name=".AboutALC2"
+            android:label="@string/title_activity_about_alc2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".MyProfile"
-            >
-
+            android:label="@string/app_profile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:label="@string/app_about"
-            android:name=".AboutALC">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:label="@string/app_alc"
-            android:name=".MainActivity">
+            android:name=".MainActivity"
+            android:label="@string/app_alc">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -20,9 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickAboutAlc(View view) {
          // we handle the onclick
-        Intent intent = new Intent(this , AboutALC.class);
-        // add the webView content
-        startActivity(intent);
+        Intent intent = new Intent(this , AboutALC2.class);
+       startActivity(intent);
     }
 
     public void clickMyProfile(View view) {
